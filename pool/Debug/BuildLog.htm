@@ -1,0 +1,112 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: pool, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\My stuff\Graphics\C++\pool\Debug\RSP000004.rsp" with contents
+[
+/OUT:".\Debug/pool.exe" /INCREMENTAL:NO /NOLOGO /NODEFAULTLIB:"libcd.lib" /NODEFAULTLIB:"libcid.lib" /DEBUG /PDB:".\Debug/pool.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 odbc32.lib odbccp32.lib opengl32.lib glu32.lib winmm.lib fmodvc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\Debug\balls.obj"
+".\Debug\hole.obj"
+".\Debug\main.obj"
+".\Debug\mouse.obj"
+".\Debug\output.obj"
+".\Debug\particle.obj"
+".\Debug\texture.obj"
+".\Debug\timer.obj"
+".\Debug\walls.obj"
+]
+Creating command line "link.exe @"c:\My stuff\Graphics\C++\pool\Debug\RSP000004.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Linking...
+balls.obj : error LNK2019: unresolved external symbol _rand referenced in function "public: __thiscall ballclass::ballclass(void)" (??0ballclass@@QAE@XZ)
+walls.obj : error LNK2001: unresolved external symbol __fltused
+output.obj : error LNK2001: unresolved external symbol __fltused
+particle.obj : error LNK2019: unresolved external symbol __fltused referenced in function "public: void __thiscall particleclass::DrawParticle(float)" (?DrawParticle@particleclass@@QAEXM@Z)
+texture.obj : error LNK2019: unresolved external symbol __fltused referenced in function "public: bool __thiscall textureclass::LoadTGA(int,char *)" (?LoadTGA@textureclass@@QAE_NHPAD@Z)
+timer.obj : error LNK2001: unresolved external symbol __fltused
+balls.obj : error LNK2001: unresolved external symbol __fltused
+hole.obj : error LNK2001: unresolved external symbol __fltused
+main.obj : error LNK2001: unresolved external symbol __fltused
+mouse.obj : error LNK2001: unresolved external symbol __fltused
+balls.obj : error LNK2019: unresolved external symbol _cos referenced in function "public: void __thiscall ballclass::Hole(float,float,float)" (?Hole@ballclass@@QAEXMMM@Z)
+balls.obj : error LNK2019: unresolved external symbol _sin referenced in function "public: void __thiscall ballclass::Hole(float,float,float)" (?Hole@ballclass@@QAEXMMM@Z)
+balls.obj : error LNK2019: unresolved external symbol _acos referenced in function "public: void __thiscall ballclass::Hole(float,float,float)" (?Hole@ballclass@@QAEXMMM@Z)
+balls.obj : error LNK2019: unresolved external symbol _hypot referenced in function "public: void __thiscall ballclass::Hole(float,float,float)" (?Hole@ballclass@@QAEXMMM@Z)
+OLDNAMES.lib(hypot.obj) : error LNK2001: unresolved external symbol _hypot
+balls.obj : error LNK2019: unresolved external symbol _sqrt referenced in function "public: void __thiscall ballclass::Hole(float,float,float)" (?Hole@ballclass@@QAEXMMM@Z)
+texture.obj : error LNK2019: unresolved external symbol _sqrt referenced in function "public: void __thiscall textureclass::BuildFont(void)" (?BuildFont@textureclass@@QAEXXZ)
+hole.obj : error LNK2019: unresolved external symbol "public: void __thiscall ofstream::close(void)" (?close@ofstream@@QAEXXZ) referenced in function "public: void __thiscall holeclass::WriteFile(char *)" (?WriteFile@holeclass@@QAEXPAD@Z)
+walls.obj : error LNK2019: unresolved external symbol "public: void __thiscall ofstream::close(void)" (?close@ofstream@@QAEXXZ) referenced in function "public: void __thiscall wallclass::WriteFile(char *)" (?WriteFile@wallclass@@QAEXPAD@Z)
+hole.obj : error LNK2019: unresolved external symbol "public: class ostream & __thiscall ostream::operator<<(char const *)" (??6ostream@@QAEAAV0@PBD@Z) referenced in function "public: void __thiscall holeclass::WriteFile(char *)" (?WriteFile@holeclass@@QAEXPAD@Z)
+walls.obj : error LNK2019: unresolved external symbol "public: class ostream & __thiscall ostream::operator<<(char const *)" (??6ostream@@QAEAAV0@PBD@Z) referenced in function "public: void __thiscall wallclass::WriteFile(char *)" (?WriteFile@wallclass@@QAEXPAD@Z)
+hole.obj : error LNK2019: unresolved external symbol "public: __thiscall ofstream::ofstream(char const *,int,int)" (??0ofstream@@QAE@PBDHH@Z) referenced in function "public: void __thiscall holeclass::WriteFile(char *)" (?WriteFile@holeclass@@QAEXPAD@Z)
+walls.obj : error LNK2019: unresolved external symbol "public: __thiscall ofstream::ofstream(char const *,int,int)" (??0ofstream@@QAE@PBDHH@Z) referenced in function "public: void __thiscall wallclass::WriteFile(char *)" (?WriteFile@wallclass@@QAEXPAD@Z)
+hole.obj : error LNK2001: unresolved external symbol "public: static int const filebuf::openprot" (?openprot@filebuf@@2HB)
+main.obj : error LNK2001: unresolved external symbol "public: static int const filebuf::openprot" (?openprot@filebuf@@2HB)
+walls.obj : error LNK2019: unresolved external symbol "public: static int const filebuf::openprot" (?openprot@filebuf@@2HB) referenced in function "public: void __thiscall wallclass::WriteFile(char *)" (?WriteFile@wallclass@@QAEXPAD@Z)
+hole.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler
+main.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler
+walls.obj : error LNK2019: unresolved external symbol ___CxxFrameHandler referenced in function "public: void __thiscall wallclass::WriteFile(char *)" (?WriteFile@wallclass@@QAEXPAD@Z)
+hole.obj : error LNK2001: unresolved external symbol __except_list
+main.obj : error LNK2001: unresolved external symbol __except_list
+walls.obj : error LNK2001: unresolved external symbol __except_list
+hole.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ios::~ios(void)" (??1ios@@UAE@XZ) referenced in function "public: void __thiscall ofstream::`vbase destructor'(void)" (??_Dofstream@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ios::~ios(void)" (??1ios@@UAE@XZ) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+walls.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall ios::~ios(void)" (??1ios@@UAE@XZ)
+hole.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ofstream::~ofstream(void)" (??1ofstream@@UAE@XZ) referenced in function "public: void __thiscall ofstream::`vbase destructor'(void)" (??_Dofstream@@QAEXXZ)
+walls.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall ofstream::~ofstream(void)" (??1ofstream@@UAE@XZ)
+hole.obj : error LNK2019: unresolved external symbol "public: class ostream & __thiscall ostream::operator<<(double)" (??6ostream@@QAEAAV0@N@Z) referenced in function "public: class ostream & __thiscall ostream::operator<<(float)" (??6ostream@@QAEAAV0@M@Z)
+walls.obj : error LNK2001: unresolved external symbol "public: class ostream & __thiscall ostream::operator<<(double)" (??6ostream@@QAEAAV0@N@Z)
+main.obj : error LNK2019: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) referenced in function _WinMain@16
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall ifstream::close(void)" (?close@ifstream@@QAEXXZ) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: class istream & __thiscall istream::operator>>(float &)" (??5istream@@QAEAAV0@AAM@Z) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: class istream & __thiscall istream::operator>>(int &)" (??5istream@@QAEAAV0@AAH@Z) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall ifstream::open(char const *,int,int)" (?open@ifstream@@QAEXPBDHH@Z) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall ifstream::ifstream(void)" (??0ifstream@@QAE@XZ) referenced in function "void __cdecl Load(char *)" (?Load@@YAXPAD@Z)
+main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall ifstream::~ifstream(void)" (??1ifstream@@UAE@XZ) referenced in function "public: void __thiscall ifstream::`vbase destructor'(void)" (??_Difstream@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol _free referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol _free
+main.obj : error LNK2019: unresolved external symbol _fclose referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol _fclose
+main.obj : error LNK2019: unresolved external symbol _fwrite referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol _fwrite
+main.obj : error LNK2019: unresolved external symbol _memset referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _fopen referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol _fopen
+main.obj : error LNK2019: unresolved external symbol _malloc referenced in function "void __cdecl CaptureScreen(void)" (?CaptureScreen@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol _malloc
+main.obj : error LNK2019: unresolved external symbol _FSOUND_Sample_Load@16 referenced in function "void __cdecl InitGL(void)" (?InitGL@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _srand referenced in function "void __cdecl InitGL(void)" (?InitGL@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _time referenced in function "void __cdecl InitGL(void)" (?InitGL@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _ceil referenced in function "void __cdecl DrawGLScene(void)" (?DrawGLScene@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __ftol referenced in function "void __cdecl DrawGLScene(void)" (?DrawGLScene@@YAXXZ)
+texture.obj : error LNK2001: unresolved external symbol __ftol
+main.obj : error LNK2019: unresolved external symbol _strncat referenced in function _WinMain@16
+main.obj : error LNK2019: unresolved external symbol _strlen referenced in function _WinMain@16
+texture.obj : error LNK2001: unresolved external symbol _strlen
+main.obj : error LNK2019: unresolved external symbol _strcpy referenced in function _WinMain@16
+output.obj : error LNK2001: unresolved external symbol _strcpy
+output.obj : error LNK2019: unresolved external symbol _strxfrm referenced in function "public: void __thiscall outputclass::save(char *)" (?save@outputclass@@QAEXPAD@Z)
+texture.obj : error LNK2019: unresolved external symbol _memcmp referenced in function "public: bool __thiscall textureclass::LoadTGA(int,char *)" (?LoadTGA@textureclass@@QAE_NHPAD@Z)
+texture.obj : error LNK2019: unresolved external symbol _fread referenced in function "public: bool __thiscall textureclass::LoadTGA(int,char *)" (?LoadTGA@textureclass@@QAE_NHPAD@Z)
+texture.obj : error LNK2019: unresolved external symbol _vsprintf referenced in function "public: void __cdecl textureclass::glPrint(float,int,int,int,char const *,...)" (?glPrint@textureclass@@QAAXMHHHPBDZZ)
+LINK : error LNK2001: unresolved external symbol _WinMainCRTStartup
+OLDNAMES.lib(hypot.obj) : error LNK2001: unresolved external symbol __hypot
+.\Debug/pool.exe : fatal error LNK1120: 44 unresolved externals
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\My stuff\Graphics\C++\pool\Debug\BuildLog.htm"
+pool - 76 error(s), 0 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

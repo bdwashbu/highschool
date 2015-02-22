@@ -1,0 +1,44 @@
+--------------------Configuration: tunnel - Win32 Debug--------------------
+Begining build with project "C:\Brian\C++\tunnel\tunnel.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/tunnel.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/tunnel.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tunnel.pdb" /debug /machine:I386 /out:"Debug/tunnel.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "c:\windows\TEMP\RSP3352.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/tunnel.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Brian\C++\tunnel\main.cpp"
+>
+Creating command line "cl.exe @c:\windows\TEMP\RSP3352.TMP" 
+Creating temp file "c:\windows\TEMP\RSP3353.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tunnel.pdb" /debug /machine:I386 /out:"Debug/tunnel.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\texture.obj">
+Creating command line "link.exe @c:\windows\TEMP\RSP3353.TMP" 
+Compiling...
+main.cpp
+C:\Brian\C++\tunnel\main.cpp(122) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(152) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(153) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(156) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(159) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(162) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(165) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(168) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(200) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(200) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(202) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(202) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(212) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(212) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(213) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\Brian\C++\tunnel\main.cpp(213) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Linking...
+
+
+
+tunnel.exe - 0 error(s), 16 warning(s)

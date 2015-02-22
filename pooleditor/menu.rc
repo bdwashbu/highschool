@@ -1,0 +1,202 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Save",                        IDM_SAVE
+        MENUITEM "Load",                        IDM_LOAD
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        IDM_QUIT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "PointLocking",                IDM_POINTLOCK, CHECKED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Controls",                    IDM_CONTROLS
+    END
+    MENUITEM "Add Ball",                    ID_ADDBALL
+    MENUITEM "Add Hole",                    ID_ADDHOLE
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PASSWORD DIALOG DISCARDABLE  0, 0, 186, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,111,20,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,111,44,50,14
+    EDITTEXT        IDC_PASSWORD,19,28,77,15,ES_AUTOHSCROLL
+    CTEXT           "Enter File Name",IDC_STATIC,20,50,75,26,SS_CENTERIMAGE
+    GROUPBOX        "Save",IDC_STATIC,7,7,172,80
+END
+
+IDD_CONTROLS DIALOG DISCARDABLE  0, 0, 186, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,67,67,50,14
+    LTEXT           "Left Click- Adds lines",IDC_STATIC,19,19,66,8
+    LTEXT           "Right Click - ",IDC_STATIC,19,31,41,8
+    LTEXT           "Once at a line point to move point",IDC_STATIC,23,42,
+                    107,8
+    LTEXT           "Twice on a line to select and then delete it",
+                    IDC_STATIC,23,52,134,8
+    GROUPBOX        "Controls",IDC_STATIC,7,7,172,80
+END
+
+IDD_OPENING DIALOGEX 0, 0, 209, 160
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select it"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,119,105,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,124,50,14
+    CONTROL         107,IDC_STATIC,"Static",SS_BITMAP,28,7,147,60,
+                    WS_EX_ACCEPTFILES
+    CTEXT           "Welcome to gLpooL",IDC_STATIC,48,83,101,22,
+                    SS_CENTERIMAGE
+    CONTROL         "FullScreen",IDC_FULLSCREENCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP,35,116,49,10
+    GROUPBOX        "Welcome!",IDC_STATIC,13,75,182,78
+END
+
+IDD_THICKNESS DIALOG DISCARDABLE  0, 0, 186, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Thinkness"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,27,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,63,50,14
+    CONTROL         "Slider1",IDC_THICKNESS,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,42,30,100,27
+    LTEXT           "Adjust line thinkness",IDC_STATIC,55,17,81,8
+    GROUPBOX        "Thinkness",IDC_STATIC,7,7,172,80
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_CONTROLS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_OPENING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_THICKNESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

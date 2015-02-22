@@ -1,0 +1,39 @@
+--------------------Configuration: raytracer - Win32 Debug--------------------
+Begining build with project "C:\Brian\C++\raytracer\raytracer.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/raytracer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/raytracer.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib winmm.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/raytracer.pdb" /debug /machine:I386 /out:"Debug/raytracer.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "c:\windows\TEMP\RSPB0C2.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/raytracer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Brian\C++\raytracer\main.cpp"
+>
+Creating command line "cl.exe @c:\windows\TEMP\RSPB0C2.TMP" 
+Creating temp file "c:\windows\TEMP\RSPB0C3.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib winmm.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/raytracer.pdb" /debug /machine:I386 /out:"Debug/raytracer.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\sphere.obj"
+".\Debug\texture.obj"
+".\Debug\Vector.obj">
+Creating command line "link.exe @c:\windows\TEMP\RSPB0C3.TMP" 
+Compiling...
+main.cpp
+C:\Brian\C++\raytracer\main.cpp(100) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(101) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(159) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(180) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(228) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(248) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(276) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(277) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Brian\C++\raytracer\main.cpp(278) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+raytracer.exe - 0 error(s), 9 warning(s)
