@@ -1,2 +1,2 @@
 # highschool
-Old opengl programs I wrote circa 2002-2004
+Some old opengl programs I wrote circa 2001-2004 (earliest being cannonwars and the latest, puzzrix)
